@@ -26,7 +26,7 @@ There are five steps to building this project:
 
 Once you get the project built, see if you can fix some [issues](https://github.com/iitg-foss/beginners-tutorial/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
 
-### Set up Git and Install Node.js
+### Set up Git and Install Python
 
 > **If you've never written Python before, don't sweat!** This exercise only requires fundamental language skills, you should be able to adapt from your favorite language.
 
