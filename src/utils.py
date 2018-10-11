@@ -36,7 +36,8 @@ class File:
         with open(self.path, 'r') as file:
             lines = file.read().split("\n")
             searchResults.extend([
-                [self.name, i, line.replace(query, query.upper())]
-                for i, line in enumerate(lines) if query in line])
+                [self.name, i+1, line.replace(query, query.upper())]
+                for i, line in enumerate(lines) if query.casefold() in line.casefold()])
 
         return searchResults
+
