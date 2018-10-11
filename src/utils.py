@@ -32,11 +32,13 @@ class File:
     def search(self, query):
 
         searchResults = []
+        #query=query.lower()#Without this addition, a capitalized query is rendered lowercase in the result.
+        #However, test.py does not play ball with this.
 
         with open(self.path, 'r') as file:
             lines = file.read().split("\n")
             searchResults.extend([
-                [self.name, i, line.replace(query, query.upper())]
-                for i, line in enumerate(lines) if query in line])
+                [self.name, i+1, line.replace(query, query.upper())]
+                for i, line in enumerate(lines) if query.lower() in line.lower()])
 
         return searchResults
