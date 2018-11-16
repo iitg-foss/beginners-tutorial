@@ -2,7 +2,7 @@ from src.search import main
 from test.test import test
 import sys
 
-if len(sys.argv) > 1 and sys.argv[1] == 'test':
+if len(sys.argv) > 1 and (sys.argv[1] == 'test' or sys.argv[1] =='Test' or sys.argv[1]=='TEST'):
 
     test()
 
