@@ -50,6 +50,14 @@ Use `git` to clone your fork
 $ git clone https://github.com/YOUR-USERNAME/beginners-tutorial
 ```
 
+## Creating a new branch
+
+$ git checkout -b "name_of_branch"
+
+Always create a branch before modifying.
+
+If you want to create a pull request later.
+
 ### Install dependencies
 
 Did you know that the author usually does not write all of the code in a project?
