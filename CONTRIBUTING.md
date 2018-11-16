@@ -22,6 +22,7 @@ There are five steps to building this project:
 1. [Set up Git and install Python](#set-up-git-and-install-nodejs)
 2. [Fork the repository](#fork-the-repository)
 3. [Clone your fork](#clone-your-fork)
+4. [Create New Branch]
 4. [Run the project](#run-the-project)
 
 Once you get the project built, see if you can fix some [issues](https://github.com/iitg-foss/beginners-tutorial/issues?q=is%3Aissue+is%3Aopen+label%3A%22good+first+issue%22).
