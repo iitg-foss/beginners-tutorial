@@ -8,7 +8,7 @@ if len(sys.argv) > 1 and sys.argv[1] == 'test':
 
 else:
 
-    folderName = input("Enter dir path(default is ./test/test_corpus):\n")
+    folderName = input("")
 
     query = input("Enter search query:\n")
 
