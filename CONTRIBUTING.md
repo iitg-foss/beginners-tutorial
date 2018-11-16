@@ -58,6 +58,9 @@ The beauty of open source is that you can install and use code that other people
 
 But since our institute has a proxy based internet system, it becomes quite hard for beginners to install these dependencies or packages. Therefore, in our project we won't be adding any dependencies.
 
+
+Create A new branch and work on that branch.
+
 ### Run the project
 
 Run the project by entering following in main repo folder.
